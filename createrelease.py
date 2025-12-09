@@ -18,13 +18,13 @@ def get_git_releases(user, project, f):
 def create_release():
  print('Creating realese.md')
  f = open('release.md', 'w')
- release = get_git_releases('martim01','pam', f)
- get_git_releases('martim01','nmos', f)
- get_git_releases('martim01','ptpmonkey', f)
- get_git_releases('martim01','dnssd', f)
- get_git_releases('martim01','sapserver', f)
- get_git_releases('martim01','restgoose', f)
- get_git_releases('martim01','log', f)  
+ release = get_git_releases('lkirc','pam', f)
+ get_git_releases('lkirc','nmos', f)
+ get_git_releases('lkirc','ptpmonkey', f)
+ get_git_releases('lkirc','dnssd', f)
+ get_git_releases('lkirc','sapserver', f)
+ get_git_releases('lkirc','restgoose', f)
+ get_git_releases('lkirc','log', f)  
  f.close()
  return release
 
